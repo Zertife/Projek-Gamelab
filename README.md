@@ -43,21 +43,23 @@ Aplikasi inventaris sekolah berbasis Laravel untuk mengelola kategori dan barang
 
 4. Buat application key, jalankan migration, dan isi data contoh.
 
-   Jalankan:
+   ```bash
    php artisan key:generate
    php artisan migrate --seed
+   ```
 
 5. Pasang dan build aset frontend.
 
-   Jalankan:
+   ```bash
    npm install
    npm run build
-   
+   ```
 
 6. Jalankan aplikasi.
 
-   Jalankan:
+   ```bash
    php artisan serve
+   ```
 
 Buka `http://127.0.0.1:8000` di browser. Untuk pengembangan frontend dengan hot reload, jalankan `npm run dev` di terminal terpisah.
 
@@ -68,4 +70,5 @@ Buka `http://127.0.0.1:8000` di browser. Untuk pengembangan frontend dengan hot 
 - **Admin** — `admin@email.com` / `admin123`
 - **User 1** — `user1@email.com` / `user123`
 - **User 2** — `user2@email.com` / `user123!`
+
 
